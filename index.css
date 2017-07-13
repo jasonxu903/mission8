@@ -1,0 +1,192 @@
+.box div {
+    width: 600px;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.box1 {
+    border: 1px solid #ccc;
+}
+
+.box2 {
+    border-left: 3px solid #f00;
+    border-right: 3px solid #f00;
+    background-color: rgba(255, 0, 0, 0.2);
+}
+
+.box3 {
+    border-top: 3px solid #cc0;
+    border-bottom: 3px solid #cc0;
+    background-color: rgba(255, 255, 0, 0.2);
+}
+
+.box4 {
+    border: 1px solid #0a0;
+    border-bottom: 3px solid #0a0;
+    background-color: rgba(0, 255, 0, 0.2);
+}
+/*.box样式完*/
+
+.btn {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+.btn a {
+    text-decoration: none;
+    padding: 4px 6px;
+    margin: 3px;
+    border-radius: 3px;
+}
+.btn a:hover {
+    box-shadow: 0 5px 5px 0 #aaa;
+}
+.btn1,
+.btn4,
+.btn5 {
+    color: #fff;
+}
+.btn2,
+.btn3 {
+    color: #000;
+}
+.btn1 {
+    background-color: #009688;
+}
+.btn2 {
+    background-color: #ffeb3b;
+}
+.btn3 {
+    background-color: #ff9800;
+}
+.btn4 {
+    background-color: #f44336;
+}
+.btn5 {
+    background-color: #4caf50;
+}
+/*.btn样式完*/
+
+.table {
+    width: 600px;
+    margin: 0 auto;
+}
+.table table {
+    width: 100%;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+.table1 tr {
+    border: 1px solid #ccc;
+}
+.table1 tr:nth-child(2n) {
+    background-color: #eee;
+}
+.table1 th {
+    padding: 3px 10px;
+    color: #fff;
+    background: #4caf50;
+    text-align: left;
+}
+.table2 tr {
+    border-bottom: 1px solid #ccc;
+}
+.table2 th {
+    padding: 3px 10px;
+    text-align: left;
+}
+.table2 tr:nth-child(2n) {
+    background-color: #eee;
+}
+.table1 td,
+.table2 td {
+    padding: 3px 10px;
+}
+/*.table样式完*/
+.tri {
+    width: 600px;
+    margin: 0 auto;
+}
+.tri div {
+    margin: 20px auto;
+}
+.rgby {
+    width: 0;
+    height: 0;
+    border-top: 50px solid #00f;
+    border-right: 50px solid #ff0;
+    border-bottom: 50px solid #0f0;
+    border-left: 50px solid #f00;
+}
+.b {
+    width: 0;
+    height: 0;
+    border-top: 50px solid #00f;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 50px solid transparent;
+}
+.r {
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 50px solid #f00;
+}
+.y {
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-right: 50px solid #ff0;
+    border-bottom: 50px solid transparent;
+    border-left: 50px solid transparent;
+}
+.g {
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid #0f0;
+    border-left: 50px solid transparent;
+}
+.rr {
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid #f00;
+    border-left: 50px solid #f00;
+}
+.gg {
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-right: 50px solid #0f0;
+    border-bottom: 50px solid #0f0;
+    border-left: 50px solid transparent;
+}
+/*.tri样式完*/
+
+.card {
+    width: 600px;
+    margin: 0 auto;
+}
+.card1 {
+    width: 149px;
+    margin: 10px auto;
+    box-shadow: 0 5px 5px 1px #ccc;
+}
+.card1 .text {
+    padding: 5px;
+    font-size: 12px;
+}
+.card2 {
+    width: 149px;
+    margin: 30px auto;
+    box-shadow: 0 5px 5px 1px #ccc;
+}
+.card2 .text {
+    padding: 5px;
+    text-align: center;
+}
